@@ -1,0 +1,28 @@
+<ion-header [translucent]="true"> 
+  <ion-toolbar > 
+   <p class="kalimat">Feedback</p>
+  </ion-toolbar> 
+</ion-header> 
+
+<ion-content [fullscreen]="true">
+
+  <div id="container">
+    <ion-card  *ngFor="let keys of DataUser">
+      <ion-card-header class="header"> 
+        <div> 
+          <ion-card-subtitle class="judul">{{keys.nama}}</ion-card-subtitle> 
+        </div>  
+      </ion-card-header> 
+      <ion-card-content>
+        <ion-list>
+          <ion-item>
+           <span>
+            {{keys.kritik}}
+           </span>
+          </ion-item>
+
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

@@ -1,0 +1,26 @@
+ion-header{
+    ion-toolbar {
+      --background:#7972e6;
+      
+    }
+      p.kalimat{
+       margin-left: 12%;
+       align-items: center;
+       font-size: 1.3rem;
+       margin-top: 15px;
+       color: #fff;
+      }
+    }
+ion-item {
+    --padding-start: 0;
+  }
+
+  ion-card .header 
+  { 
+    display: flex; 
+    justify-content: space-between; 
+    flex-direction: row; 
+    background-color: #E8F6EF; 
+    margin-bottom: 10px; 
+    align-items: center; 
+  } 

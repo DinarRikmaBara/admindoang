@@ -1,0 +1,30 @@
+ion-item {
+    --padding-start: 0;
+  }
+
+  ion-content{
+    label{
+        opacity: 50%; 
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1rem;
+        justify-content: center;
+        text-align: center;
+    }
+    .btn{
+        bottom:1px; 
+        width: 35%;  
+        left: 10px; 
+       --border-radius: 20px;
+       --background:#7972e6;
+    }
+  }
+  ion-card .header 
+  { 
+    display: flex; 
+    justify-content: space-between; 
+    flex-direction: row; 
+    background-color: #E8F6EF; 
+    margin-bottom: 10px; 
+    align-items: center; 
+  } 

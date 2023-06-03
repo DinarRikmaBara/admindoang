@@ -1,0 +1,30 @@
+<ion-content [fullscreen]="true"> 
+  <div id="header"> 
+    <div id="app-bar"> 
+      <div id="logo" routerLink="/"> 
+        <img src=".\assets\img\Logo.png" alt=""/> 
+      </div> 
+    </div> 
+ 
+    <h1>Login</h1> 
+    <p>Halo Senang Bertemu Dengan Anda</p> 
+  </div> 
+ 
+  <div class="wrapper"> 
+    <ion-card class="form-wrapper"> 
+      <ion-card-content> 
+        <ion-item> 
+          <ion-icon name="mail"></ion-icon> 
+          <ion-input type="text" placeholder="Email"  [(ngModel)]="form.email" [ngModelOptions]="{standalone: true}"></ion-input> 
+        </ion-item> 
+        <ion-item> 
+          <ion-icon name="lock-closed"></ion-icon> 
+          <ion-input type="password" placeholder="Password"  [(ngModel)]="form.password" [ngModelOptions]="{standalone: true}"></ion-input> 
+        </ion-item> 
+        <ion-button expand="block" (click)="login()"> 
+          Log In 
+        </ion-button> 
+      </ion-card-content> 
+    </ion-card> 
+  </div> 
+</ion-content>
